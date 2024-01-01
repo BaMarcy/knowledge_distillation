@@ -1,11 +1,11 @@
- ## Knowledge distillation
+ ## Knowledge distillation in PyTorch
  
-[**💾 DATASET**](https://github.com/joojs/fairface) **|** [**💡 ORIGINAL IMPLEMENTATION**](https://github.com/dchen236/FairFace) **|** [**💻 Jupyter Notebook**](https://jupyter.org/install) **|** [**🔥 PyTorch**](https://pytorch.org/get-started/locally/) **|** **👁 CNN** **|** **💪🏽 CPU/GPU** **|**  [**🔗 LinkedIn**](https://www.linkedin.com/in/marcellbalogh) 👈🏽 
+[**💾 DATASET**](https://github.com/joojs/fairface) **|** [**💻 Jupyter Notebook**](https://jupyter.org/install) **|** [**🔥 PyTorch**](https://pytorch.org/get-started/locally/) **|** **👁 CNN** **|** **💪🏽 CPU/GPU** **|**  [**🔗 LinkedIn**](https://www.linkedin.com/in/marcellbalogh) 👈🏽 
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://bamarcy-age-gender-streamlit-streamlit-app-fr1omm.streamlitapp.com/)
 
 #### 🔍 Description
-<p align="justify">Multi-task learning is a subfield of Deep Learning in which multiple learning tasks (e.g. age and gender and ethnicity classification) are solved at the same time, while exploiting commonalities and differences across tasks. Transfer learning, on the other hand, is the reuse of pre-trained models (e.g. VGG16 RESNET18 and RESNET34) on a new problem. It's a very popular technique because it can train ANNs faster with comparatively little data. This project implements these two powerful techniques in PyTorch on FAIRFACE dataset to classify gender, ethnicity and age within a single model.</p>
+<p align="justify">Knowledge distillation is a model compression technique in machine learning where a smaller model (student) is trained to replicate the behavior of a larger, more complex model (teacher). The idea is to transfer the knowledge and generalization capabilities of the teacher model to the smaller student model.</p>
 
 <p align="center">
   <img src="test.PNG">
